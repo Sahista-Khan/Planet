@@ -6,7 +6,7 @@ function People(props) {
     const [people, setpeople] = useState(null)
     
     useEffect(() => {
-        let api=props.location.state.replce("http","https");
+        let api=props.location.state.replace("http","https");
         axios.get(api)
         .then((res)=>{
             console.log(res)
