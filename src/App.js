@@ -10,10 +10,10 @@ function App() {
     <div>
       <BrowserRouter>
 
-        <Switch>
-        
+        <Switch>  
           <Route path="/people" component={People} />
           <Route path="/residents" component={Residents} />
+          <Route path="/" component={Planet} />
         </Switch>
       </BrowserRouter>
 
