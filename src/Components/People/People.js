@@ -20,7 +20,7 @@ function People(props) {
     return (
      
         <div>
-               <p>People Details</p>
+            <p>People Details</p>
            {people? <div>Name: {people.name} -- Height: {people.height} --- Mass: {people.mass}</div> :<p>Loading....</p>}
         </div>
     )
