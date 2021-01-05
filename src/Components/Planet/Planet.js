@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import './Planet.css'
 
 import axios from 'axios'
 
@@ -24,7 +25,7 @@ export default function Planet(props) {
 
     return (
         <div>
-            <p>All Planets</p>
+            <p className="allPlanet">All Planets</p>
             <ul>
                 {planet? 
                     planet.map(value=><li key={value.name} onClick={()=>{residentsHandler(value)}}>{value.name}</li>):

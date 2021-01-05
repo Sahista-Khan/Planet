@@ -1,0 +1,20 @@
+.planetList{
+    list-style: none;
+    height: 25px;
+    width: 100px;
+    margin: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: brown;
+    background: antiquewhite;
+    text-align: center;
+}
+
+.planetList:hover{
+    cursor: pointer;
+}
+
+.allPlanet{
+    width: 100px;
+    margin: 10px;
+}
